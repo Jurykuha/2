@@ -738,23 +738,25 @@
    z-index: 999
    span, i
     color: $white
-  span
+  .pop-up
    display: block
-   position: absolute
-   left: 45%
-   top: 10%
-   text-transform: uppercase
-   font-size: 20px
-   font-weight: 600
-  i
-   display: block
-   position: absolute
-   right: 5%
-   top: 14%
-   font-size: 20px
-   z-index: 99
-   &:hover
-    cursor: pointer
+   span
+    display: block
+    position: absolute
+    left: calc(50% - 30px)
+    top: 10%
+    text-transform: uppercase
+    font-size: 20px
+    font-weight: 600
+   i
+    display: block
+    position: absolute
+    right: 8%
+    top: 18%
+    font-size: 20px
+    z-index: 99
+    &:hover
+     cursor: pointer
   ul
    padding: 20px 0px
    li
